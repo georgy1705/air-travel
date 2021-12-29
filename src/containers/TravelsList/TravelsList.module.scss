@@ -1,0 +1,47 @@
+.TravelsList {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.Travel {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 100%;
+}
+
+.TravelHead {
+    padding: 10px 20px;
+    background: #1E90FF;
+    height: 50px;
+
+    span {
+        font-size: 25px;
+    }
+
+}
+
+.TravelHeadPrice {
+    float: right;
+}
+
+.btnLoad {
+    padding: 5px 0px;
+    margin: 30px auto;
+    width: 25%;
+    background: #F5F5F5;
+    cursor: pointer;
+}
+
+.btnWrite {
+    width: 100%;
+    color: #fff;
+    background: #FF8C00;
+    border: none;
+    height: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+.Filter {
+    max-width: 300px;
+    width: 35%;
+}
+
+.Sort {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+
+    label {
+        color: #045661
+    }
+    
+
+    h3 {
+        color: #2F4F4F
+    }
+}

@@ -1,5 +1,6 @@
 import axios from "../../axios/axios-travel"
 import { 
+    FETCH_COMPANY,
     FETCH_TRAVELS_ERROR, 
     FETCH_TRAVELS_START, 
     FETCH_TRAVELS_SUCCESS 
@@ -48,5 +49,12 @@ export function fetchTravelsError(e) {
     return {
         type: FETCH_TRAVELS_ERROR,
         error: e
+    }
+}
+
+export function fetchCompany(companies) {
+    return {
+        type: FETCH_COMPANY,
+        companies
     }
 }

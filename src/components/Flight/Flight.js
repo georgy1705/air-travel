@@ -81,7 +81,7 @@ const Flight = props => {
                     </div>
                     <br />
                     {
-                        props.arrivalSegment.arrivalCity.caption.toLowerCase() === 'лондон' ? 
+                        props.arrivalSegment.arrivalCity.caption.toLowerCase() === 'париж' ? 
                         <div className={classes.hrSect}>
                             <span style={{color: '#FF8C00'}}>1 пересадка</span>
                         </div> :

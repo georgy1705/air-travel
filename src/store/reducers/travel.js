@@ -1,4 +1,5 @@
 import { 
+    FETCH_COMPANY,
     FETCH_TRAVELS_ERROR, 
     FETCH_TRAVELS_START, 
     FETCH_TRAVELS_SUCCESS 
@@ -7,6 +8,7 @@ import {
 
 const initialState = {
     travels: [],
+    companies: [],
     loading: false
 }
 
@@ -23,6 +25,10 @@ export default function travelReducer(state = initialState, action) {
         case FETCH_TRAVELS_ERROR:
             return {
                 ...state, error: action.error, loading: false
+            }
+        case FETCH_COMPANY:
+            return {
+                ...state, companies: action.companies
             }
         default:
             return state
